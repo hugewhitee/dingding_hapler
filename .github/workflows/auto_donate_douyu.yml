@@ -16,9 +16,9 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@v2
       - name: 'Set up Python'
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v1
         with:
-          python-version: 3.7
+          python-version: 3.7.15
       - name: 'Install requirements'
         run: pip install -r requirements.txt
       - name: 'Working'
